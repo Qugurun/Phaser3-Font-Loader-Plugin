@@ -1,25 +1,25 @@
 /**
- * Plugin for adding support to load *.ttf files in Phaser 3.80.x.
+ * Plugin for adding support to load font files in Phaser 3.80.x.
  * Version: 1.0.0
  * Author: Qugurun
  * License: MIT
  */
 
-export class TTFLoaderPlugin extends Phaser.Plugins.BasePlugin {
+export class FontLoaderPlugin extends Phaser.Plugins.BasePlugin {
     constructor(pluginManager) {
         super(pluginManager);
 
-        pluginManager.registerFileType("ttf", function (key, url) {
+        pluginManager.registerFileType("font", function (key, url) {
             const fontName = key;
-            this.addFile(new TTFFile(this, key, fontName, url));
+            this.addFile(new FontFile(this, key, fontName, url));
         });
     }
 }
 
-class TTFFile extends Phaser.Loader.File {
+class FontFile extends Phaser.Loader.File {
     constructor(loader, key, fontName, url) {
         super(loader, {
-            type: "ttf",
+            type: "font",
             key: key,
             url: url
         });

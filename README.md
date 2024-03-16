@@ -1,10 +1,10 @@
 # Phaser3-TTF-Loader-Plugin
 
-This plugin enhances Phaser 3 functionality by providing support for loading TrueType Font files (*.ttf). It allows seamless integration of custom fonts in games or applications developed using Phaser 3. The plugin empowers developers to easily track the loading process of *.ttf files, ensuring efficient handling of font assets similar to how Phaser manages other supported file types. 
+This plugin enhances Phaser 3 functionality by providing support for loading font files. It allows seamless integration of custom fonts in games or applications developed using Phaser 3. The plugin empowers developers to easily track the loading process of font files, ensuring efficient handling of font assets similar to how Phaser manages other supported file types. 
 
 ```js
 import 'phaser';
-import { TTFLoaderPlugin } from './plugin/ttf_loader_plugin.js';
+import { FontLoaderPlugin } from './plugin/font_loader_plugin.js';
 
 const config = {
     type: Phaser.AUTO,
@@ -16,8 +16,8 @@ const config = {
     },
     plugins: {
         global: [{
-            key: 'TTFLoaderPlugin',
-            plugin: TTFLoaderPlugin,
+            key: 'FontLoaderPlugin',
+            plugin: FontLoaderPlugin,
             start: true
         }]
     }
@@ -26,7 +26,7 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.ttf('baloo', 'assets/font/baloo.ttf');
+    this.load.font('baloo', 'assets/font/baloo.ttf');
 }
 
 function create() {
