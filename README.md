@@ -31,4 +31,4 @@ function preload() {
 
 function create() {
     this.add.text(100, 100, 'Hello Phaser 3 with custom font!', { fontFamily: 'baloo', fontSize: '32px', color: '#ffffff' });
-}```
+}
