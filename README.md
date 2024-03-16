@@ -26,25 +26,10 @@ const config = {
 const game = new Phaser.Game(config);
 
 function preload() {
-    this.load.font('baloo', 'assets/font/baloo.ttf');
+  this.load.font('baloo', 'assets/font/baloo.ttf');
 }
 
 function create() {
     this.add.text(100, 100, 'Hello Phaser 3 with custom font!', { fontFamily: 'baloo', fontSize: '32px', color: '#ffffff' });
 }
 
-Test:
-```js
-preload(){
-  this.load.on("fileprogress", function (file) {
-    console.dir(file)
-  });
-
-  this.load.on('complete', function () {
-    console.log('Complete!');
-  });
-
-  for (let index = 0; index < 5000; index++) {
-    this.load.font("baloo"+index, "assets/font/baloo.ttf"); 
-  }
-}
