@@ -1,4 +1,4 @@
-# Phaser3-TTF-Loader-Plugin
+# Phaser3-Font-Loader-Plugin
 
 This plugin enhances Phaser 3 functionality by providing support for loading font files. It allows seamless integration of custom fonts in games or applications developed using Phaser 3. The plugin empowers developers to easily track the loading process of font files, ensuring efficient handling of font assets similar to how Phaser manages other supported file types. 
 
