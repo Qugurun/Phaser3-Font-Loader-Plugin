@@ -1,4 +1,4 @@
-[![Page Views Count](https://badges.toozhao.com/badges/01HSA24ADS6993H83P1GSVKHNG/green.svg)](https://badges.toozhao.com/stats/01HSA24ADS6993H83P1GSVKHNG "Get your own page views count badge on badges.toozhao.com")
+[![Page Views Count](https://badges.toozhao.com/badges/01HSA2GRQ6FGQE084P8X419MKT/green.svg)](https://badges.toozhao.com/stats/01HSA2GRQ6FGQE084P8X419MKT "Get your own page views count badge on badges.toozhao.com")
 
 # Phaser3-Font-Loader-Plugin
 
