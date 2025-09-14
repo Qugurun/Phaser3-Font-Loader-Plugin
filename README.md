@@ -1,4 +1,3 @@
-[![Page Views Count](https://badges.toozhao.com/badges/01HSA2GRQ6FGQE084P8X419MKT/green.svg)](https://badges.toozhao.com/stats/01HSA2GRQ6FGQE084P8X419MKT "Get your own page views count badge on badges.toozhao.com")
 [![made-with-phaser](https://badgen.net/badge/Made%2520with/PHASER/purple)](https://phaser.io)
 
 # Phaser3-Font-Loader-Plugin
